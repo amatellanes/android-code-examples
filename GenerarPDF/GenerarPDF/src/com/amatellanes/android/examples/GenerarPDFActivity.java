@@ -18,10 +18,14 @@ import android.view.View.OnClickListener;
 
 import com.lowagie.text.Document;
 import com.lowagie.text.DocumentException;
+import com.lowagie.text.Element;
 import com.lowagie.text.Font;
 import com.lowagie.text.FontFactory;
+import com.lowagie.text.HeaderFooter;
 import com.lowagie.text.Image;
 import com.lowagie.text.Paragraph;
+import com.lowagie.text.Phrase;
+import com.lowagie.text.pdf.ColumnText;
 import com.lowagie.text.pdf.PdfPTable;
 import com.lowagie.text.pdf.PdfWriter;
 
@@ -57,7 +61,16 @@ public class GenerarPDFActivity extends Activity implements OnClickListener {
 					f.getAbsolutePath());
 
 			// Asociamos el flujo que acabamos de crear al documento.
-			PdfWriter.getInstance(documento, ficheroPdf);
+			PdfWriter writer = PdfWriter.getInstance(documento, ficheroPdf);
+
+			// Incluimos el píe de página y una cabecera
+			HeaderFooter cabecera = new HeaderFooter(new Phrase(
+					"Esta es mi cabecera"), false);
+			HeaderFooter pie = new HeaderFooter(new Phrase(
+					"Este es mi pie de página"), false);
+
+			documento.setHeader(cabecera);
+			documento.setFooter(pie);
 
 			// Abrimos el documento.
 			documento.open();
@@ -85,6 +98,14 @@ public class GenerarPDFActivity extends Activity implements OnClickListener {
 				tabla.addCell("Celda " + i);
 			}
 			documento.add(tabla);
+
+			// Agregar marca de agua
+			font = FontFactory.getFont(FontFactory.HELVETICA, 42, Font.BOLD,
+					Color.GRAY);
+			ColumnText.showTextAligned(writer.getDirectContentUnder(),
+					Element.ALIGN_CENTER, new Paragraph(
+							"amatellanes.wordpress.com", font), 297.5f, 421,
+					writer.getPageNumber() % 2 == 1 ? 45 : -45);
 
 		} catch (DocumentException e) {
 
