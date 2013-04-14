@@ -32,3 +32,5 @@ Ejemplos
 
 *    **GenerarPDF**: Generar un fichero PDF en nuestro dispositivo Android haciendo uso de la librería [droidText](https://code.google.com/p/droidtext/ " droidtext -
 PDF creation on android - Google Project Hosting"). Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/03/13/ejemplo-sencillo-de-creacion-de-un-pdf-en-android/ "Abrir un fichero usando las aplicaciones instaladas en Android | ").
+
+* **EjemploListView**: Ejemplo de uso de una vista <code>ListView</code> en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/04/14/ejemplo-de-listview-en-android/ "Ejemplo de ListView en Android | ").
