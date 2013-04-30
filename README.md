@@ -28,9 +28,11 @@ Una vez tengas listo tu entorno de trabajo podrás probarlo creando tu primera a
 Ejemplos
 --------
 
-*    **AbrirFicheroAppsInstaladas**: Usa cualquier administrador de archivos instalado en tu dispositivo para abrir un fichero en tu aplicación. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/03/10/abrir-un-fichero-usando-las-aplicaciones-instaladas-en-android/ "Abrir un fichero usando las aplicaciones instaladas en Android | ").
+*    **AbrirFicheroAppsInstaladas** : Usa cualquier administrador de archivos instalado en tu dispositivo para abrir un fichero en tu aplicación. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/03/10/abrir-un-fichero-usando-las-aplicaciones-instaladas-en-android/ "Abrir un fichero usando las aplicaciones instaladas en Android | ").
 
-*    **GenerarPDF**: Generar un fichero PDF en nuestro dispositivo Android haciendo uso de la librería [droidText](https://code.google.com/p/droidtext/ " droidtext -
+*    **GenerarPDF** : Generar un fichero PDF en nuestro dispositivo Android haciendo uso de la librería [droidText](https://code.google.com/p/droidtext/ " droidtext -
 PDF creation on android - Google Project Hosting"). Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/03/13/ejemplo-sencillo-de-creacion-de-un-pdf-en-android/ "Abrir un fichero usando las aplicaciones instaladas en Android | ").
 
-* **EjemploListView**: Ejemplo de uso de una vista <code>ListView</code> en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/04/14/ejemplo-de-listview-en-android/ "Ejemplo de ListView en Android | ").
+* **EjemploListView** : Ejemplo de uso de una vista <code>ListView</code> en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/04/14/ejemplo-de-listview-en-android/ "Ejemplo de ListView en Android | ").
+
+* **Spans** : Introducción al uso de *spans* en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/04/30/introduccion-a-spans-en-android/ "").
