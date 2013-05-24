@@ -28,7 +28,7 @@ Una vez tengas listo tu entorno de trabajo podrás probarlo creando tu primera a
 Ejemplos
 --------
 
-* **NavigationDrawer** : Ejemplo de uso de la vista ```NavigationDrawer``` en Android. Para más información visita [mi blog]( "http://amatellanes.wordpress.com/2013/05/24/ejemplo-de-navigation-drawer-en-android-parte-i/").
+* **NavigationDrawer** : Ejemplo de uso de la vista ```NavigationDrawer``` en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/05/24/ejemplo-de-navigation-drawer-en-android-parte-i/ "http://amatellanes.wordpress.com/2013/05/24/ejemplo-de-navigation-drawer-en-android-parte-i/").
 
 *    **AbrirFicheroAppsInstaladas** : Usa cualquier administrador de archivos instalado en tu dispositivo para abrir un fichero en tu aplicación. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/03/10/abrir-un-fichero-usando-las-aplicaciones-instaladas-en-android/ "Abrir un fichero usando las aplicaciones instaladas en Android | ").
 
