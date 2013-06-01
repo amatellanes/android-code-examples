@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- More info http://developer.android.com/design/style/color.html -->
+
+    <color name="white">#FFffffff</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#FF8c8c8c</color>
+    <color name="android_blue">#FF33b5e5</color>
+    <color name="android_darkblue">#FF0099cc</color>
+    <color name="android_green">#FF99cc00</color>
+    <color name="android_darkgreen">#FF669900</color>
+    <color name="android_red">#FFff4444</color>
+    <color name="android_darkred">#FFcc0000</color>
+    <color name="android_yellow">#FFffd75a</color>
+    <color name="android_darkyellow">#FFffc40d</color>
+    <color name="android_orange">#FFffbb33</color>
+    <color name="android_darkorange">#FFff8800</color>
+    <color name="android_pink">#FFd9698c</color>
+    <color name="android_darkpink">#FFc3325f</color>
+    <color name="android_purple">#FFaa66cc</color>
+    <color name="android_darkpurple">#FF9933cc</color>
+
+</resources>
