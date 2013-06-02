@@ -28,7 +28,7 @@ Una vez tengas listo tu entorno de trabajo podrás probarlo creando tu primera a
 Ejemplos
 --------
 
-* **ViewPager** : Ejemplo de uso de la vista ```ViewPager``` en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/05/25/android-ejemplo-de-viewpager-en-android-parte-1/ "http://amatellanes.wordpress.com/2013/05/25/android-ejemplo-de-viewpager-en-android-parte-1/").
+* **EjemploViewPager** : Ejemplo de uso de la vista ```ViewPager``` en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/05/25/android-ejemplo-de-viewpager-en-android-parte-1/ "http://amatellanes.wordpress.com/2013/05/25/android-ejemplo-de-viewpager-en-android-parte-1/").
 
 * **NavigationDrawer** : Ejemplo de uso del componente **Navigation Drawer** en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/05/24/ejemplo-de-navigation-drawer-en-android-parte-i/ "http://amatellanes.wordpress.com/2013/05/24/ejemplo-de-navigation-drawer-en-android-parte-i/").
 

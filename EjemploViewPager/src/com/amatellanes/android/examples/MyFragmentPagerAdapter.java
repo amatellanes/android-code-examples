@@ -49,4 +49,8 @@ public class MyFragmentPagerAdapter extends FragmentPagerAdapter {
 		return this.fragments.size();
 	}
 
+	@Override
+	public CharSequence getPageTitle(int position) {
+		return "Página " + (position + 1);
+	}
 }

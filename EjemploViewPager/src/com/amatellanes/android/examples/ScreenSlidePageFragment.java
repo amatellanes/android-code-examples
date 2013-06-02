@@ -8,6 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+/**
+ * 
+ * @author amatellanes
+ * 
+ */
 public class ScreenSlidePageFragment extends Fragment {
 
 	/**

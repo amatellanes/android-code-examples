@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 
+import com.amatellanes.android.examples.transformers.ZoomOutPageTransformer;
+
 /**
  * 
  * @author amatellanes
@@ -29,20 +31,22 @@ public class MainActivity extends FragmentActivity {
 
 		// Instantiate a ViewPager
 		this.pager = (ViewPager) this.findViewById(R.id.pager);
+		// Set a custom animation
+		this.pager.setPageTransformer(true, new ZoomOutPageTransformer());
 
 		// Create an adapter with the fragments we show on the ViewPager
 		MyFragmentPagerAdapter adapter = new MyFragmentPagerAdapter(
 				getSupportFragmentManager());
 		adapter.addFragment(ScreenSlidePageFragment.newInstance(getResources()
-				.getColor(R.color.android_blue), 0));
+				.getColor(R.color.android_blue), 1));
 		adapter.addFragment(ScreenSlidePageFragment.newInstance(getResources()
-				.getColor(R.color.android_purple), 1));
+				.getColor(R.color.android_purple), 2));
 		adapter.addFragment(ScreenSlidePageFragment.newInstance(getResources()
-				.getColor(R.color.android_green), 2));
+				.getColor(R.color.android_green), 3));
 		adapter.addFragment(ScreenSlidePageFragment.newInstance(getResources()
-				.getColor(R.color.android_yellow), 3));
+				.getColor(R.color.android_yellow), 4));
 		adapter.addFragment(ScreenSlidePageFragment.newInstance(getResources()
-				.getColor(R.color.android_red), 4));
+				.getColor(R.color.android_red), 5));
 		this.pager.setAdapter(adapter);
 
 	}
