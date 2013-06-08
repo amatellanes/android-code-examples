@@ -6,8 +6,7 @@ Android Code Examples
 Introducción
 ------------
 
-Este repositorio contiene código de aplicaciones Android que escribo en mi blog 
-https://amatellanes.wordpress.com.
+Este repositorio contiene código de aplicaciones Android que escribo en mi blog [amatellanes.wordpress.com](https://amatellanes.wordpress.com/ "Escritor de códigos.").
 
 
 Para la creación de mis proyectos utilizo:
