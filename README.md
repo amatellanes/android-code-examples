@@ -28,15 +28,17 @@ Una vez tengas listo tu entorno de trabajo podrás probarlo creando tu primera a
 Ejemplos
 --------
 
-* **EjemploViewPager** : Ejemplo de uso de la vista ```ViewPager``` en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/05/25/android-ejemplo-de-viewpager-en-android-parte-1/ "http://amatellanes.wordpress.com/2013/05/25/android-ejemplo-de-viewpager-en-android-parte-1/").
+* **EjemploViewPager** : Ejemplo de uso de la vista ```ViewPager``` en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/05/25/android-ejemplo-de-viewpager-en-android-parte-1/ "Android >> Ejemplo de ViewPager en Android ( Parte 1 ) | Escritor de códigos.").
 
-* **NavigationDrawer** : Ejemplo de uso del componente **Navigation Drawer** en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/05/24/ejemplo-de-navigation-drawer-en-android-parte-i/ "http://amatellanes.wordpress.com/2013/05/24/ejemplo-de-navigation-drawer-en-android-parte-i/").
+* **NavigationDrawer** : Ejemplo de uso del componente **Navigation Drawer** en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/05/24/ejemplo-de-navigation-drawer-en-android-parte-i/ "Android >> Ejemplo de NavigationDrawer en Android ( Parte 1 ) | Escritor de códigos.").
 
-*    **AbrirFicheroAppsInstaladas** : Usa cualquier administrador de archivos instalado en tu dispositivo para abrir un fichero en tu aplicación. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/03/10/abrir-un-fichero-usando-las-aplicaciones-instaladas-en-android/ "Abrir un fichero usando las aplicaciones instaladas en Android | ").
+* **EjemploWebView** : Ejemplo de uso de la vista ```WebView``` en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/06/01/android-ejemplo-de-webview-en-android-parte-1/ "Android >> Ejemplo de WebView en Android ( Parte 1 ) | Escritor de códigos.").
+
+*    **AbrirFicheroAppsInstaladas** : Usa cualquier administrador de archivos instalado en tu dispositivo para abrir un fichero en tu aplicación. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/03/10/abrir-un-fichero-usando-las-aplicaciones-instaladas-en-android/ "Abrir un fichero usando las aplicaciones instaladas en Android | Escritor de códigos.").
 
 *    **GenerarPDF** : Generar un fichero PDF en nuestro dispositivo Android haciendo uso de la librería [droidText](https://code.google.com/p/droidtext/ " droidtext -
-PDF creation on android - Google Project Hosting"). Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/03/13/ejemplo-sencillo-de-creacion-de-un-pdf-en-android/ "Abrir un fichero usando las aplicaciones instaladas en Android | ").
+PDF creation on android - Google Project Hosting"). Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/03/13/ejemplo-sencillo-de-creacion-de-un-pdf-en-android/ "Android &gt;&gt; Ejemplo sencillo de creación de un PDF en Android | Escritor de códigos.").
 
-* **EjemploListView** : Ejemplo de uso de una vista <code>ListView</code> en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/04/14/ejemplo-de-listview-en-android/ "Ejemplo de ListView en Android | ").
+* **EjemploListView** : Ejemplo de uso de una vista <code>ListView</code> en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/04/14/ejemplo-de-listview-en-android/ "Ejemplo de ListView en Android | Escritor de códigos.").
 
-* **Spans** : Introducción al uso de *spans* en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/04/30/introduccion-a-spans-en-android/ "").
+* **Spans** : Introducción al uso de *spans* en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/04/30/introduccion-a-spans-en-android/ "Android >>Introducción a Spans en Android | Escritor de códigos.").
