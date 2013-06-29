@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 
-import com.amatellanes.android.examples.transformers.ZoomOutPageTransformer;
+import com.viewpagerindicator.TitlePageIndicator;
 
 /**
  * 
@@ -31,8 +31,9 @@ public class MainActivity extends FragmentActivity {
 
 		// Instantiate a ViewPager
 		this.pager = (ViewPager) this.findViewById(R.id.pager);
+
 		// Set a custom animation
-		this.pager.setPageTransformer(true, new ZoomOutPageTransformer());
+		// this.pager.setPageTransformer(true, new ZoomOutPageTransformer());
 
 		// Create an adapter with the fragments we show on the ViewPager
 		MyFragmentPagerAdapter adapter = new MyFragmentPagerAdapter(
@@ -48,6 +49,10 @@ public class MainActivity extends FragmentActivity {
 		adapter.addFragment(ScreenSlidePageFragment.newInstance(getResources()
 				.getColor(R.color.android_red), 5));
 		this.pager.setAdapter(adapter);
+
+		// Bind the title indicator to the adapter
+		TitlePageIndicator titleIndicator = (TitlePageIndicator) findViewById(R.id.indicator);
+		titleIndicator.setViewPager(pager);
 
 	}
 
