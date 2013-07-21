@@ -33,6 +33,8 @@ Ejemplos
 
 * **EjemploWebView** : Ejemplo de uso de la vista ```WebView``` en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/06/01/android-ejemplo-de-webview-en-android-parte-1/ "Android >> Ejemplo de WebView en Android ( Parte 1 ) | Escritor de códigos.").
 
+* **Feedback** : Implementar un sistema de *feedback* en una aplicación Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/07/21/android-anadiendo-feedback-a-tu-aplicacion/ "Android >> Añadiendo feedback a tu aplicación | Escritor de códigos.").
+
 *    **AbrirFicheroAppsInstaladas** : Usa cualquier administrador de archivos instalado en tu dispositivo para abrir un fichero en tu aplicación. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/03/10/abrir-un-fichero-usando-las-aplicaciones-instaladas-en-android/ "Abrir un fichero usando las aplicaciones instaladas en Android | Escritor de códigos.").
 
 *    **GenerarPDF** : Generar un fichero PDF en nuestro dispositivo Android haciendo uso de la librería [droidText](https://code.google.com/p/droidtext/ " droidtext -

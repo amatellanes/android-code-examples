@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity" >
+
+    <ImageButton
+        android:id="@+id/ibFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/btn_feedback"
+        android:clickable="true"
+        android:contentDescription="Send feedback"
+        android:onClick="onClick"
+        android:src="@drawable/ic_feedback" />
+
+</FrameLayout>
