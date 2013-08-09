@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Toasts</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_toast_basic">Toast - Basic</string>
+    <string name="button_toast_gravity">Toast - Gravity</string>
+    <string name="button_toast_custom">Toast - Custom</string>
+
+</resources>
