@@ -26,7 +26,7 @@ Una vez tengas listo tu entorno de trabajo podrás probarlo creando tu primera a
 
 Ejemplos
 --------
-* **Splas Screen** : Creación de un *splash screen* en Android. Para mas información visita [mi blog](http://amatellanes.wordpress.com/2013/08/27/android-crear-un-splash-screen-en-android/ "Android >> Crear un splash screen en Android | Escritor de códigos.").
+* **SplashScreen** : Creación de un *splash screen* en Android. Para mas información visita [mi blog](http://amatellanes.wordpress.com/2013/08/27/android-crear-un-splash-screen-en-android/ "Android >> Crear un splash screen en Android | Escritor de códigos.").
 
 * **Toasts** : Ejemplo de uso de mensajes `Toast` en Android. Para mas información visita [mi blog](http://amatellanes.wordpress.com/2013/08/09/android-notificaciones-en-android-parte-1-toasts/ "Android >> Notificaciones en Android ( Parte 1- Toasts ) | Escritor de códigos.").
 
