@@ -26,6 +26,10 @@ Una vez tengas listo tu entorno de trabajo podrás probarlo creando tu primera a
 
 Ejemplos
 --------
+* **SplashScreenFragment** : Creación de un *splash screen* en Android para versiones anteriores a Android 3.0 usando *[Fragments](http://developer.android.com/guide/components/fragments.html "Fragments | Android Developers")*. Para mas información visita [mi blog](http://amatellanes.wordpress.com/2013/08/31/android-crear-un-splash-screen-en-android-usando-fragments/ "Android >> Crear un splash screen en Android usando Fragments | Escritor de códigos.").
+
+* **SplashScreenFragmentv11** : Creación de un *splash screen* en Android para la versión Android 3.0 y superiores usando *[Fragments](http://developer.android.com/guide/components/fragments.html "Fragments | Android Developers")*. Para mas información visita [mi blog](http://amatellanes.wordpress.com/2013/08/31/android-crear-un-splash-screen-en-android-usando-fragments/ "Android >> Crear un splash screen en Android usando Fragments | Escritor de códigos.").
+
 * **SplashScreen** : Creación de un *splash screen* en Android. Para mas información visita [mi blog](http://amatellanes.wordpress.com/2013/08/27/android-crear-un-splash-screen-en-android/ "Android >> Crear un splash screen en Android | Escritor de códigos.").
 
 * **Toasts** : Ejemplo de uso de mensajes `Toast` en Android. Para mas información visita [mi blog](http://amatellanes.wordpress.com/2013/08/09/android-notificaciones-en-android-parte-1-toasts/ "Android >> Notificaciones en Android ( Parte 1- Toasts ) | Escritor de códigos.").
