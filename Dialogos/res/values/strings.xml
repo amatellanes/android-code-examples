@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dialogos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="dialog_header">Please sign in</string>
+    <string name="signin">Sign in</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="pick_color">Pick a color</string>
+
+    <string-array name="array_colors">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+
+</resources>
