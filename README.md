@@ -34,7 +34,7 @@ Ejemplos
 
 * **Toasts** : Ejemplo de uso de mensajes `Toast` en Android. Para mas información visita [mi blog](http://amatellanes.wordpress.com/2013/08/09/android-notificaciones-en-android-parte-1-toasts/ "Android >> Notificaciones en Android ( Parte 1- Toasts ) | Escritor de códigos.").
 
-* **Diálogos** : Ejemplo de uso de diálogos en Android. Para mas información visita [mi blog](http://amatellanes.wordpress.com/2013/10/05/android-notificaciones-en-android-parte-2-dialogs-i/ "Android >> Notificaciones en Android ( Parte 2 – Dialogs I ) | Escritor de códigos.").
+* **Diálogos** : Ejemplo de uso de diálogos en Android. Para mas información visita mi blog ([Parte 1](http://amatellanes.wordpress.com/2013/10/05/android-notificaciones-en-android-parte-2-dialogs-i/ "Android >> Notificaciones en Android ( Parte 2 – Dialogs I ) | Escritor de códigos.") - [Parte 2](http://amatellanes.wordpress.com/2013/10/06/android-notificaciones-en-android-parte-2-dialogs-ii/ "Android >> Notificaciones en Android ( Parte 2 – Dialogs II ) | Escritor de códigos.")).
 
 * **EjemploViewPager** : Ejemplo de uso de la vista ```ViewPager``` en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/05/25/android-ejemplo-de-viewpager-en-android-parte-1/ "Android >> Ejemplo de ViewPager en Android ( Parte 1 ) | Escritor de códigos.").
 
