@@ -38,9 +38,11 @@ Ejemplos
 
 * **EjemploViewPager** : Ejemplo de uso de la vista ```ViewPager``` en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/05/25/android-ejemplo-de-viewpager-en-android-parte-1/ "Android >> Ejemplo de ViewPager en Android ( Parte 1 ) | Escritor de códigos.").
 
-* **NavigationDrawer** : Ejemplo de uso del componente **Navigation Drawer** en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/05/24/ejemplo-de-navigation-drawer-en-android-parte-i/ "Android >> Ejemplo de NavigationDrawer en Android ( Parte 1 ) | Escritor de códigos.").
+* **NavigationDrawer** : Ejemplo de uso del componente ```Navigation Drawer``` en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/05/24/ejemplo-de-navigation-drawer-en-android-parte-i/ "Android >> Ejemplo de NavigationDrawer en Android ( Parte 1 ) | Escritor de códigos.").
 
 * **EjemploWebView** : Ejemplo de uso de la vista ```WebView``` en Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/06/01/android-ejemplo-de-webview-en-android-parte-1/ "Android >> Ejemplo de WebView en Android ( Parte 1 ) | Escritor de códigos.").
+
+* **FormRoboGuice** : Ejemplo de uso del *framework* de inyección de dependecias [RoboGuice](https://github.com/roboguice/roboguice "roboguice/roboguice · GitHub"). Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/11/03/android-inyeccion-de-dependencias-usando-roboguice/ "Android &gt;&gt; Inyección de dependencias usando RoboGuice | Escritor de códigos.").
 
 * **Feedback** : Implementar un sistema de *feedback* en una aplicación Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/07/21/android-anadiendo-feedback-a-tu-aplicacion/ "Android >> Añadiendo feedback a tu aplicación | Escritor de códigos.").
 
