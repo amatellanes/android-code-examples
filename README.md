@@ -44,6 +44,8 @@ Ejemplos
 
 * **FormRoboGuice** : Ejemplo de uso del *framework* de inyección de dependecias [RoboGuice](https://github.com/roboguice/roboguice "roboguice/roboguice · GitHub"). Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/11/03/android-inyeccion-de-dependencias-usando-roboguice/ "Android &gt;&gt; Inyección de dependencias usando RoboGuice | Escritor de códigos.").
 
+* **PruebasAcra** : Ejemplo de uso de la librería [ACRA](http://acra.ch/ "ACRA - Know your BUGS."). Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/11/12/android-monitorizacion-de-errores-usando-acra/ "Android &gt;&gt; Monitorización de errores usando ACRA | ").
+
 * **Feedback** : Implementar un sistema de *feedback* en una aplicación Android. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/07/21/android-anadiendo-feedback-a-tu-aplicacion/ "Android >> Añadiendo feedback a tu aplicación | Escritor de códigos.").
 
 *    **AbrirFicheroAppsInstaladas** : Usa cualquier administrador de archivos instalado en tu dispositivo para abrir un fichero en tu aplicación. Para más información visita [mi blog](http://amatellanes.wordpress.com/2013/03/10/abrir-un-fichero-usando-las-aplicaciones-instaladas-en-android/ "Abrir un fichero usando las aplicaciones instaladas en Android | Escritor de códigos.").
