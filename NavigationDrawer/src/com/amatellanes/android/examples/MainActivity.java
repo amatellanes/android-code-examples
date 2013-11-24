@@ -1,5 +1,6 @@
 package com.amatellanes.android.examples;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
@@ -7,6 +8,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -64,6 +66,8 @@ public class MainActivity extends ActionBarActivity {
 		// Set the drawer toggle as the DrawerListener
 		drawerLayout.setDrawerListener(drawerToggle);
 
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setHomeButtonEnabled(true);
 	}
 
 	@Override
@@ -73,11 +77,35 @@ public class MainActivity extends ActionBarActivity {
 		return true;
 	}
 
-	/**
-	 * Called whenever we call invalidateOptionsMenu()
-	 */
+	@Override
+	protected void onPostCreate(Bundle savedInstanceState) {
+		super.onPostCreate(savedInstanceState);
+		// Sync the toggle state after onRestoreInstanceState has occurred.
+		drawerToggle.syncState();
+	}
+
+	@Override
+	public void onConfigurationChanged(Configuration newConfig) {
+		// Called by the system when the device configuration changes while your
+		// activity is running
+		super.onConfigurationChanged(newConfig);
+		drawerToggle.onConfigurationChanged(newConfig);
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Pass the event to ActionBarDrawerToggle, if it returns
+		// true, then it has handled the app icon touch event
+		if (drawerToggle.onOptionsItemSelected(item)) {
+			return true;
+		}
+		// Handle your other action bar items...
+		return super.onOptionsItemSelected(item);
+	}
+
 	@Override
 	public boolean onPrepareOptionsMenu(Menu menu) {
+		// Called whenever we call invalidateOptionsMenu()
 		// If the navigation drawer is open, hide action items related to the
 		// content view
 		boolean drawerOpen = drawerLayout.isDrawerOpen(navList);
