@@ -2,4 +2,8 @@
 
     <string name="app_name">NavigationDrawer</string>
 
+    <!-- Describe  "close and open drawer" action for accessibility -->
+    <string name="open_drawer">Drawer abierto</string>
+    <string name="close_drawer">Drawer cerrado</string>
+
 </resources>
