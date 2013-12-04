@@ -17,9 +17,10 @@ import android.widget.ListView;
 public class MainActivity extends ActionBarActivity {
 
 	private DrawerLayout drawerLayout;
-	private ActionBarDrawerToggle drawerToggle;
 	private ListView navList;
 	private CharSequence mTitle;
+
+	private ActionBarDrawerToggle drawerToggle;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -68,13 +69,7 @@ public class MainActivity extends ActionBarActivity {
 
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setHomeButtonEnabled(true);
-	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
 	}
 
 	@Override
@@ -104,19 +99,24 @@ public class MainActivity extends ActionBarActivity {
 	}
 
 	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+	/*
+	 * Called whenever we call invalidateOptionsMenu()
+	 */
+	@Override
 	public boolean onPrepareOptionsMenu(Menu menu) {
-		// Called whenever we call invalidateOptionsMenu()
-		// If the navigation drawer is open, hide action items related to the
-		// content view
+		// If the nav drawer is open, hide action items related to the content
+		// view
 		boolean drawerOpen = drawerLayout.isDrawerOpen(navList);
 		menu.findItem(R.id.action_search).setVisible(!drawerOpen);
 		return super.onPrepareOptionsMenu(menu);
 	}
 
-	/**
-	 * Callback method to be invoked when an item in the navigation drawer has
-	 * been clicked.
-	 */
 	private class DrawerItemClickListener implements
 			ListView.OnItemClickListener {
 		@Override
@@ -126,21 +126,16 @@ public class MainActivity extends ActionBarActivity {
 		}
 	}
 
-	/**
-	 * Swaps fragments in the main content view.
-	 * 
-	 * @param position
-	 *            selected option
-	 */
+	/** Swaps fragments in the main content view */
 	private void selectItem(int position) {
 		// Get text from resources
-		String option = getResources().getStringArray(R.array.nav_options)[position];
+		mTitle = getResources().getStringArray(R.array.nav_options)[position];
 
 		// Create a new fragment and specify the option to show based on
 		// position
 		Fragment fragment = new MyFragment();
 		Bundle args = new Bundle();
-		args.putString(MyFragment.KEY_TEXT, option);
+		args.putString(MyFragment.KEY_TEXT, mTitle.toString());
 		fragment.setArguments(args);
 
 		// Insert the fragment by replacing any existing fragment
@@ -150,14 +145,8 @@ public class MainActivity extends ActionBarActivity {
 
 		// Highlight the selected item, update the title, and close the drawer
 		navList.setItemChecked(position, true);
-		setTitle(option);
-		drawerLayout.closeDrawer(navList);
-	}
-
-	@Override
-	public void setTitle(CharSequence title) {
-		mTitle = title;
 		getSupportActionBar().setTitle(mTitle);
+		drawerLayout.closeDrawer(navList);
 	}
 
 }
