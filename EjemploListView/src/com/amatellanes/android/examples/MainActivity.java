@@ -56,7 +56,6 @@ public class MainActivity extends Activity {
 			@Override
 			public void onItemClick(AdapterView<?> adapter, View view,
 					int position, long arg) {
-
 				// Sets the visibility of the indeterminate progress bar in the
 				// title
 				setProgressBarIndeterminateVisibility(true);
@@ -87,7 +86,6 @@ public class MainActivity extends Activity {
 
 		@Override
 		public void onPageFinished(WebView view, String url) {
-
 			// When the page has finished loading, hide progress dialog and
 			// progress bar in the title.
 			super.onPageFinished(view, url);

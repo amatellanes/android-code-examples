@@ -46,8 +46,10 @@ public class ItemAdapter extends BaseAdapter {
 		// Set data into the view.
 		ImageView ivItem = (ImageView) rowView.findViewById(R.id.ivItem);
 		TextView tvTitle = (TextView) rowView.findViewById(R.id.tvTitle);
-		tvTitle.setText(this.items.get(position).getTitle());
-		ivItem.setImageResource(this.items.get(position).getImage());
+
+		Item item = this.items.get(position);
+		tvTitle.setText(item.getTitle());
+		ivItem.setImageResource(item.getImage());
 
 		return rowView;
 	}

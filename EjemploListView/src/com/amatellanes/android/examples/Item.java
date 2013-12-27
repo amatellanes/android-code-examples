@@ -2,7 +2,7 @@ package com.amatellanes.android.examples;
 
 public class Item {
 
-	private Integer image;
+	private int image;
 	private String title;
 	private String url;
 
@@ -10,18 +10,18 @@ public class Item {
 		super();
 	}
 
-	public Item(Integer image, String title, String url) {
+	public Item(int image, String title, String url) {
 		super();
 		this.image = image;
 		this.title = title;
 		this.url = url;
 	}
 
-	public Integer getImage() {
+	public int getImage() {
 		return image;
 	}
 
-	public void setImage(Integer image) {
+	public void setImage(int image) {
 		this.image = image;
 	}
 
