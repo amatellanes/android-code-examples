@@ -38,10 +38,14 @@ public class ItemAdapter extends BaseAdapter {
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 
-		// Create a new view into the list.
-		LayoutInflater inflater = (LayoutInflater) context
-				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		View rowView = inflater.inflate(R.layout.list_item, parent, false);
+		View rowView = convertView;
+
+		if (convertView == null) {
+			// Create a new view into the list.
+			LayoutInflater inflater = (LayoutInflater) context
+					.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			rowView = inflater.inflate(R.layout.list_item, parent, false);
+		}
 
 		// Set data into the view.
 		ImageView ivItem = (ImageView) rowView.findViewById(R.id.ivItem);
