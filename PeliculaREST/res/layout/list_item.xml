@@ -4,7 +4,7 @@
     android:layout_height="wrap_content" >
 
     <ImageView
-        android:id="@+id/ivItem"
+        android:id="@+id/ivPoster"
         android:layout_width="?android:attr/listPreferredItemHeight"
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
@@ -15,7 +15,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@id/ivItem"
+        android:layout_toRightOf="@id/ivPoster"
         android:singleLine="true"
         android:textIsSelectable="false" />
 
@@ -24,7 +24,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvTitle"
-        android:layout_toRightOf="@id/ivItem"
+        android:layout_toRightOf="@id/ivPoster"
         android:singleLine="true"
         android:textIsSelectable="false" />
 
@@ -33,7 +33,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvWritters"
-        android:layout_toRightOf="@id/ivItem"
+        android:layout_toRightOf="@id/ivPoster"
         android:singleLine="true"
         android:textIsSelectable="false" />
 
@@ -42,7 +42,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvActors"
-        android:layout_toRightOf="@id/ivItem"
+        android:layout_toRightOf="@id/ivPoster"
         android:maxLines="2"
         android:textIsSelectable="false" />
 

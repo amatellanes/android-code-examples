@@ -47,7 +47,7 @@ public class ItemAdapter extends BaseAdapter {
 		View rowView = inflater.inflate(R.layout.list_item, parent, false);
 
 		// Set data into the view.
-		ImageView ivItem = (ImageView) rowView.findViewById(R.id.ivItem);
+		ImageView ivItem = (ImageView) rowView.findViewById(R.id.ivPoster);
 		TextView tvTitle = (TextView) rowView.findViewById(R.id.tvTitle);
 		TextView tvWritters = (TextView) rowView.findViewById(R.id.tvWritters);
 		TextView tvActors = (TextView) rowView.findViewById(R.id.tvActors);

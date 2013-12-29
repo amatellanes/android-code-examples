@@ -29,10 +29,52 @@
         android:onClick="buscarPelicula"
         android:text="Buscar" />
 
-    <ListView
-        android:id="@+id/listView"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1" />
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ivPoster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/ivPoster"
+            android:singleLine="true"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@+id/tvWritters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitle"
+            android:layout_toRightOf="@id/ivPoster"
+            android:singleLine="true"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@+id/tvActors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvWritters"
+            android:layout_toRightOf="@id/ivPoster"
+            android:singleLine="true"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@+id/tvPlot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvActors"
+            android:layout_toRightOf="@id/ivPoster"
+            android:maxLines="2"
+            android:textIsSelectable="false" />
+    </RelativeLayout>
 
 </LinearLayout>

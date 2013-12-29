@@ -2,17 +2,17 @@ package com.amatellanes.pelicularest;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
-import android.view.Window;
 import android.widget.EditText;
-import android.widget.ListView;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.github.kevinsawicki.http.HttpRequest;
 import com.github.kevinsawicki.http.HttpRequest.HttpRequestException;
@@ -21,25 +21,31 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
+import com.squareup.picasso.Picasso;
 
 public class MainActivity extends Activity {
 
 	private EditText inputPelicula;
 
-	private ListView listView;
+	private ImageView ivPoster;
+	private TextView tvTitle, tvWritters, tvActors, tvPlot;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
-		// Display a indeterminate progress bar on title bar
-		requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
-
 		setContentView(R.layout.activity_main);
 
-		this.listView = (ListView) findViewById(R.id.listView);
+		prepareUI();
+	}
 
+	private void prepareUI() {
 		inputPelicula = (EditText) findViewById(R.id.input_pelicula);
+
+		ivPoster = (ImageView) findViewById(R.id.ivPoster);
+		tvTitle = (TextView) findViewById(R.id.tvTitle);
+		tvWritters = (TextView) findViewById(R.id.tvWritters);
+		tvActors = (TextView) findViewById(R.id.tvActors);
+		tvPlot = (TextView) findViewById(R.id.tvPlot);
 	}
 
 	public void buscarPelicula(View view) {
@@ -65,19 +71,22 @@ public class MainActivity extends Activity {
 		}
 
 		protected void onPostExecute(String response) {
-			Log.i(TAG, response);
-			// TextView textView = (TextView) findViewById(R.id.texto);
-			// ImageView image = (ImageView) findViewById(R.id.imagen);
 			List<Pelicula> peliculas = getPeliculas(response);
 
-			// Pelicula p = peliculas.get(0);
-			listView.setAdapter(new ItemAdapter(getApplicationContext(),
-					peliculas));
+			if (!peliculas.isEmpty())
+				mostrarPelicula(peliculas.get(0));
+		}
+	}
 
-			// Picasso.with(context).load("http://i.imgur.com/DvpvklR.png").into(imageView);
-			//
-			// Picasso.with(getApplicationContext()).load(p.getPoster().getImdb())
-			// .into(image);
+	private void mostrarPelicula(Pelicula pelicula) {
+		tvTitle.setText(pelicula.getTitle());
+		tvWritters.setText(Arrays.toString(pelicula.getWriters()));
+		tvActors.setText(Arrays.toString(pelicula.getActors()));
+		tvPlot.setText(pelicula.getPlot_simple());
+		if (pelicula.getPoster() != null
+				&& pelicula.getPoster().getImdb() != null) {
+			Picasso.with(getApplicationContext())
+					.load(pelicula.getPoster().getImdb()).into(ivPoster);
 		}
 	}
 
